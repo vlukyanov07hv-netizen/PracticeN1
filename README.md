@@ -9,21 +9,21 @@
 | `final_output.txt` | Краткий вывод по работе |
 
 ## Для запуска?
-Требования:
+**Требования:**
 
 ● Python 3.12+
 
 ● Библиотеки: sentence-transformers, numpy, pandas, matplotlib, scikit-learn, tqdm
 
-1. Клонируй репозиторий
+**1. Клонируй репозиторий**
 ```bash
 git clone https://github.com/vlukyanov07hv-netizen/PracticeN1.git
 ```
-2. Перейди в репозиторий
+**2. Перейди в репозиторий**
 ```bash
 cd PracticeN1
 ```
-3. Подготовь данные
+**3. Подготовь данные**
 
  Шаг№1 
 ```bash
@@ -40,6 +40,7 @@ mkdir data
  ```bash
  move eval_questions.json data
  ```
+
 ● для macOS/Linux:
  ```bash
  mv code_corpus.json data
@@ -47,15 +48,33 @@ mkdir data
  ```bash
  mv eval_questions.json data
  ```
-4. Установи зависимости
+**4. Установи и активируй venv**
+
+● для macOS/Linux:
+```bash
+ python3 -m venv venv
+ ```
+```bash
+ source venv/bin/activate
+ ```
+
+
+● для macOS/Linux:
+```bash
+ python3 -m venv venv
+ ```
+```bash
+ source venv/bin/activate
+ ```
+**5. Установи зависимости**
 ```bash
 pip install -r requirements.txt
 ```
-5. Запусти Jupyter
+**6. Запусти Jupyter**
 ```bash
 jupyter notebook solution.ipynb
 ```
-5. Перезапусти Kernel и запусти все ячейки
+**7. Перезапусти Kernel и запусти все ячейки**
 ## Что это?
 
 Проект для учебной практики. Задача — найти лучшую модель для семантического поиска по фрагментам кода. Вместо поиска по точному совпадению текста используется поиск по смыслу (с помощью эмбеддингов). 
