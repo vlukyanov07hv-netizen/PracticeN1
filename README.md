@@ -72,14 +72,10 @@ venv\Scripts\activate
  ```
 ## 5. Установи зависимости
 
-● для Windows:
 ```bash
 pip install -r requirements.txt
 ```
-● для macOS/Linux:
-```bash
-pip3 install -r requirements.txt
-```
+
 ## 6. Запусти Jupyter
 ```bash
 jupyter notebook solution.ipynb
