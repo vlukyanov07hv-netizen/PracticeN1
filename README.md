@@ -21,11 +21,11 @@ git clone https://github.com/vlukyanov07hv-netizen/PracticeN1.git
 ```
 2. Подготовь данные
 
- ●  Распакуй `data.zip`
+ 1)  Распакуй `data.zip`
  
- ●  Создай папку `data` внутри клонированного репозитория
+ 2)  Создай папку `data` внутри клонированного репозитория
  
- ●  Перемести файлы `code_corpus.json` и `eval_questions.json` в `data`
+ 3)  Перемести файлы `code_corpus.json` и `eval_questions.json` в `data`
  
 3. Перейди в репозиторий
 ```bash
