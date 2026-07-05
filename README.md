@@ -2,8 +2,8 @@
 | Файл | Описание |
 |------|----------|
 | `solution.ipynb` | Главный ноутбук с кодом |
-| `data.zip/code_corpus.json` | 200 фрагментов кода с описаниями |
-| `data.zip/eval_questions.json` | 25 тестовых вопросов с правильными ответами |
+| `code_corpus.json` | 200 фрагментов кода с описаниями |
+| `eval_questions.json` | 25 тестовых вопросов с правильными ответами |
 | `comparison_table.csv` | Таблица сравнения моделей |
 | `tsne_visualization.png` | Визуализация эмбеддингов |
 | `final_output.txt` | Краткий вывод по работе |
@@ -19,20 +19,34 @@
 ```bash
 git clone https://github.com/vlukyanov07hv-netizen/PracticeN1.git
 ```
-2. Подготовь данные
-
- Шаг.1 
- 
- Создай папку `data` внутри клонированного репозитория
- 
- Шаг.2 
- 
- Перемести файлы `code_corpus.json` и `eval_questions.json` в `data`
- 
-3. Перейди в репозиторий
+2. Перейди в репозиторий
 ```bash
 cd PracticeN1
 ```
+3. Подготовь данные
+
+ Шаг№1 
+```bash
+mkdir data
+```
+ Шаг№2 
+ 
+ Перемести файлы `code_corpus.json` и `eval_questions.json` в `data`
+ 
+● для Windows:
+ ```bash
+ move code_corpus.json data
+ ```
+ ```bash
+ move eval_questions.json data
+ ```
+● для macOS/Linux:
+ ```bash
+ mv code_corpus.json data
+ ```
+ ```bash
+ mv eval_questions.json data
+ ```
 4. Установи зависимости
 ```bash
 pip install -r requirements.txt
