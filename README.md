@@ -33,7 +33,11 @@ git clone https://github.com/vlukyanov07hv-netizen/PracticeN1.git
 ```bash
 cd PracticeN1
 ```
-4. Запусти Jupyter
+4. Установи зависимости
+```bash
+pip install -r requirements.txt
+```
+5. Запусти Jupyter
 ```bash
 jupyter notebook solution.ipynb
 ```
