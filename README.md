@@ -2,8 +2,8 @@
 | Файл | Описание |
 |------|----------|
 | `solution.ipynb` | Главный ноутбук с кодом |
-| `data/code_corpus.json` | 200 фрагментов кода с описаниями |
-| `data/eval_questions.json` | 25 тестовых вопросов с правильными ответами |
+| `data.zip/code_corpus.json` | 200 фрагментов кода с описаниями |
+| `data.zip/eval_questions.json` | 25 тестовых вопросов с правильными ответами |
 | `comparison_table.csv` | Таблица сравнения моделей |
 | `tsne_visualization.png` | Визуализация эмбеддингов |
 | `final_output.txt` | Краткий вывод по работе |
@@ -21,7 +21,7 @@ git clone https://github.com/vlukyanov07hv-netizen/PracticeN1.git
 ```
 2. Подготовь данные
 
- ●  Распакуй `data.rar`
+ ●  Распакуй `data.zip`
  
  ●  Создай папку `data` внутри клонированного репозитория
  
