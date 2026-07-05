@@ -22,14 +22,11 @@ git clone https://github.com/vlukyanov07hv-netizen/PracticeN1.git
 ```bash
 cd PracticeN1
 ```
- 2. Установи зависимости
-```bash
-pip install -r requirements.txt
-```
- 4. Запусти Jupyter
+ 2. Запусти Jupyter
 ```bash
 jupyter notebook solution.ipynb
 ```
+ 3. Перезапусти Kernel и запусти все ячейки
 ## Что это?
 
 Проект для учебной практики. Задача — найти лучшую модель для семантического поиска по фрагментам кода. Вместо поиска по точному совпадению текста используется поиск по смыслу (с помощью эмбеддингов). 
