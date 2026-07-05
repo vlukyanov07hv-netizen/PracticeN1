@@ -50,12 +50,12 @@ mkdir data
  ```
 __4. Установи и активируй venv__
 
-● для macOS/Linux:
+● для Windows:
 ```bash
- python3 -m venv venv
+ python -m venv venv
  ```
 ```bash
- source venv/bin/activate
+venv\Scripts\activate
  ```
 
 
@@ -67,8 +67,14 @@ __4. Установи и активируй venv__
  source venv/bin/activate
  ```
 __5. Установи зависимости__
+
+● для Windows:
 ```bash
 pip install -r requirements.txt
+```
+● для macOS/Linux:
+```bash
+pip3 install -r requirements.txt
 ```
 __6. Запусти Jupyter__
 ```bash
